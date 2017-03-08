@@ -197,6 +197,6 @@ function wkhtmltopdf(input, options, callback) {
   return stream;
 }
 
-wkhtmltopdf.command = 'wkhtmltopdf';
+wkhtmltopdf.command = 'wkhtmltopdf_proxy';
 wkhtmltopdf.shell = '/bin/bash';
 module.exports = wkhtmltopdf;
