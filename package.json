@@ -20,7 +20,7 @@
   },
   "scripts": {
     "test": "jasmine",
-    "headlessTest": "xvfb-run -a jasmine"
+    "headlesstest": "xvfb-run -a node_modules/.bin/jasmine"
   },
   "bugs": "http://github.com/devongovett/node-wkhtmltopdf/issues",
   "devDependencies": {
